@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evaluating High Turnover NBA Players"?
+title: "Evaluating High Turnover NBA Players"
 subtitle: "Smarter Way To Identify High Turnover Players"
 tags:
   - NBA
@@ -10,7 +10,7 @@ published: true
 
 ---
 
-![regression results](/content/2020-03-01-excess_turnovers/regression_results.png)
+![regression results](/content/2020-03-01-excess-turnovers/regression_results.png)
 
 # Background
 As the NBA evolves and competition increases, teams are getting even more creative to seek any possible edge, with the ultimate goal of holding the championship trophy in June. In the final minutes of a playoff game, NBA teams require their top lineup to consist of elite shooting, defending, rebounding, passing, and minimal turnovers. 
