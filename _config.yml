@@ -4,7 +4,7 @@ url                          : "http://ankush1018.github.io"
 
 blog:
   title                      : Ankush's Blog
-  description                  :
+  description                :
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -23,10 +23,10 @@ blog:
 # Author info
 author:
   fullname                  : Ankush Agrawal
-  rss                       : true # generate RSS feed and show it's icon in header
+  rss                       : false # generate RSS feed and show it's icon in header
   mail                      : ankush1018@gmail.com # change to your e-mail address
   twitter                   : 
-  linkedin: ankush-agrawal-9a8647ab
+  linkedin                  : ankush-agrawal-9a8647ab
   goodreads                 : 
   github                    : 
   youtube                   : 
