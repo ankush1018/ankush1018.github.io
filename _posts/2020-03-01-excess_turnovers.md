@@ -4,21 +4,20 @@ title: "Evaluating High Turnover NBA Players"?
 subtitle: "Smarter Way To Identify High Turnover Players"
 tags:
   - NBA
-hero: /content/2020-03-01-excess_turnovers/regression_results.png
+hero: /content/2018-11-30-explaining-our-life-expectancy-gap/life_expectancy.png
 overlay: blue
 published: true
+
 ---
 
-### Disclaimer
-This analysis was largley influened by the work of my favorite rogue sports bloggers reddit u/ca1294(https://www.reddit.com/user/ca1294)
-
+![regression results](/content/2020-03-01-excess-turnovers/regression_results.png)
 
 # Background
 As the NBA evolves and competition increases, teams are getting even more creative to seek any possible edge, with the ultimate goal of holding the championship trophy in June. In the final minutes of a playoff game, NBA teams require their top lineup to consist of elite shooting, defending, rebounding, passing, and minimal turnovers. 
 
 Many sports blogs and sports broadcasters tend to focus on number of TOV per game. This can be a useful stat, but it can not come without its flaws. Players who pass the ball a lot (ex. Luka Doncic) or players heavily used on offense (ex James Harden) should be allowed to have more turnovers because of how much they do. Stats like AST / TO ratio or USG % / TO ratio try to do this, but they don't give a wholistic picture Ideally, we'd use a combination of both (AST and Usage / shots taken) to explain the turnovers a player generates. 
 
-Rather than looking at a players number of turnovers per game, we care more about "when this player is on the court, does the player cause his team to turn the ball over more?" In other words, does this player create an excess number of turnovers after considnering their impact on the game? TOV On-Off Differential is a great stat that answers this question. The main issue is that On-Off stats are inherently noisey(http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
+Rather than looking at a players number of turnovers per game, we care more about "when this player is on the court, does the player cause his team to turn the ball over more?" In other words, does this player create an excess number of turnovers after considnering their impact on the game? TOV On-Off Differential is a great stat that answers this question. The main issue is that On-Off stats are [inherently noisey](http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
 
 My goal is to examine the relationship between excess turnovers by a player(Team TOV On Off Diff) vs that players indivual assist, turnovers, free throw attempts, and field goal attempts. To do this, I will use a multivaraite oridnary least squares regression. 
 
@@ -47,5 +46,6 @@ This regression suggests 1 TOV every 4 assist, 11 FGA, or 14 FTA is okay. Player
 
 
 # Kudos:
-This analysis was largley influened by the work of my favorite rogue sports bloggers reddit u/ca1294(https://www.reddit.com/user/ca1294), who initally brought up the idea of excess turnovers(https://www.reddit.com/r/nba/comments/752fdv/oc_3650_introducing_excess_turnovers_xto_a_new/). I strongly encourage you to check out his posts on Reddit! 
+This analysis was largley influened by the work of my favorite rogue sports bloggers reddit [u/ca1294](https://www.reddit.com/user/ca1294). I strongly encourage you to check out his posts on Reddit! 
+And thank you to swars for the amazing pacakge NBAPy to pull the results!
 
