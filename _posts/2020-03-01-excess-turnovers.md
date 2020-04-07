@@ -3,7 +3,7 @@ layout: post
 title: "Evaluating High Turnover NBA Players"
 tags:
   - NBA
-hero: /content/2020-03-01-excess_turnovers/cp3.jpg
+hero: /content/2020-03-01-excess-turnovers/cp3.jpg
 overlay: blue
 published: true
 
