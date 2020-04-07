@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Evaluating High Turnover NBA Players"
-subtitle: "Smarter Way To Identify High Turnover Players"
 tags:
   - NBA
 hero: /content/2020-03-01-excess_turnovers/cp3.jpg
