@@ -29,6 +29,7 @@ To understand how TOV-prone an NBA player really is, we want to look at a playes
 ### Regresion Results And Interpretation
 
 **XTOV = TOV - .2285 AST - 0.09 FGA -0.07 FTA**
+
 This regression suggests 1 TOV every 4 assist, 11 FGA, or 14 FTA is okay. Players like James Harden, Lebron James, Luka Doncic might have have a lot of TOV, but that's okay given how many assists and shots they take.
 
 ## Final Thoughts
