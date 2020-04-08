@@ -41,8 +41,6 @@ This regression suggests 1 TOV every 4 assist, 11 FGA, or 14 FTA is okay. Player
 
 ## Plots
 
-![regression results](/content/2020-03-01-excess-turnovers/) 
-
 ![Chris Paul](/content/2020-03-01-excess-turnovers/Chris_Paul.png) 
 
 ![LeBron_James](/content/2020-03-01-excess-turnovers/LeBron_James.png) 
