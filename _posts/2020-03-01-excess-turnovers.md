@@ -9,11 +9,11 @@ published: true
 
 ---
 ![regression results](/content/2020-03-01-excess-turnovers/regression_results.png) 
-Many sports blogs and sports broadcasters tend to focus on the number of turnovers (TOV) per game. This can be a useful stat, but it does come with a few flaws. Players who pass the ball a lot or heavily used on offense (ex. Luka Doncic, James Harden) should be *allowed* to have more turnovers because of how essential they are to their teams’ offenses. 
+When evaluating high turnover players, it is common for many fans to focus on a certain number of turnovers (TOV) per game. This can be a useful stat, but it does come with a few flaws. Players who pass the ball a lot or heavily used on offense (ex. Luka Doncic, James Harden) should be *allowed* to have more turnovers because of how essential they are to their teams’ offenses. 
 
-Stats like AST / TOV  or USG % / TOV try to do this, but they don't give a wholistic picture. Ideally, we would use a combination of both assists and usage rate to understand the turnovers a player generates. 
+Stats like *AST / TOV*  or *USG % / TOV* try to do this, but they don't give a wholistic picture. Ideally, we would use a combination of both assists and usage rate to understand the turnovers a player generates. 
 
-To understand how turnover-prone an NBA player really is, we want to look at that players TOV On-Off Difference, also known as their TOV plus-minus. This stat can be understood as *"when this player is on the court, how many additional TOV does he cause.”* However, the main issue is that On-Off stats are [inherently noisey.](http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
+To understand how turnover-prone an NBA player really is, we want to look at each players TOV On-Off Difference, also known as their TOV Plus-Minus. This stat can be understood as *"when this player is on the court, how many additional turnovers does cause his team?”* This stat is useful, except that On-Off stats are [very noisy.](http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
 
 **My goal is to explain TOV On-Off in a less noisy way.** I want to explain TOV On-Off with easily measurable stats such as an individual players turnovers (TOV), assists (AST), and shots taken (FGA and FTA). To do this, I will use a multivariate linear least squares regression. The result will a stat **XTOV** that better identifies which players create excess turnovers for their team. 
 
