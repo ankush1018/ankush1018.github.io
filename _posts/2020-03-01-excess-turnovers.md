@@ -25,10 +25,9 @@ To understand how TOV-prone an NBA player really is, we want to look at a playes
 * Data comes from 2010 - 2020 regular season data
 * Regression is fit with no intercept
 
-## Regresion Results And Interpretation
+## Regression Results And Interpretation
 
 **XTOV = TOV - .2285 AST - 0.09 FGA -0.07 FTA**
-
 This regression suggests 1 TOV every 4 assist, 11 FGA, or 14 FTA is okay. Players like James Harden, Lebron James, Luka Doncic might have have a lot of TOV, but that's okay given how many assists and shots they take.
 
 ## Final Thoughts
@@ -40,15 +39,15 @@ This regression suggests 1 TOV every 4 assist, 11 FGA, or 14 FTA is okay. Player
 * To further improve this regression, we could dig deeper into shot type. For example, turnovers that are the result of high quality shots, such as layups, should be more tolerable than a turnover from a contest mid-range.
 
 ## Plots
-![Chris Paul](/content/2020-03-01-excess-turnovers/Chris_Paul.png) 
-![LeBron_James](/content/2020-03-01-excess-turnovers/LeBron_James.png) 
-![James_Harden](/content/2020-03-01-excess-turnovers/James_Harden.png) 
-![DeMarcus_Cousins](/content/2020-03-01-excess-turnovers/DeMarcus_Cousins.png) 
-![Dwight_Howard](/content/2020-03-01-excess-turnovers/Dwight_Howard.png) 
-![Stephen_Curry](/content/2020-03-01-excess-turnovers/Stephen_Curry.png) 
-![Giannis_Antetokounmpo](/content/2020-03-01-excess-turnovers/Giannis_Antetokounmpo.png) 
+![Chris Paul](/content/2020-03-01-excess-turnovers/Chris Paul.png) 
+![LeBron_James](/content/2020-03-01-excess-turnovers/LeBron James.png) 
+![James_Harden](/content/2020-03-01-excess-turnovers/James Harden.png) 
+![DeMarcus_Cousins](/content/2020-03-01-excess-turnovers/DeMarcus Cousins.png) 
+![Dwight_Howard](/content/2020-03-01-excess-turnovers/Dwight Howard.png) 
+![Stephen_Curry](/content/2020-03-01-excess-turnovers/Stephen Curry.png) 
+![Giannis_Antetokounmpo](/content/2020-03-01-excess-turnovers/Giannis Antetokounmpo.png) 
 ## Kudos:
-This analysis was largley influened by the work of my favorite rogue sports bloggers reddit [u/ca1294](https://www.reddit.com/user/ca1294). And thank you to u/swar for the amazing (and thoroughly doucumented) [nba_api package](https://github.com/swar/nba_api)
+This analysis was inspired by my favorite sports blogger [u/ca1294](https://www.reddit.com/user/ca1294). And thank you to u/swar for the amazing (and thoroughly doucumented) [nba_api package](https://github.com/swar/nba_api)
 
 
 
