@@ -13,7 +13,7 @@ When evaluating high turnover players, it is common for many fans to focus on a 
 
 Stats like *AST / TOV*  or *USG % / TOV* try to do this, but they don't give a wholistic picture. Ideally, we would use a combination of both assists and usage rate to understand the turnovers a player generates. 
 
-To understand how turnover-prone an NBA player really is, we want to look at each players TOV On-Off Difference, also known as their TOV Plus-Minus. This stat can be understood as *"when this player is on the court, how many additional turnovers does cause his team?”* This stat is useful, except that On-Off stats are [very noisy.](http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
+To understand how turnover-prone an NBA player really is, we want to look at each players TOV On-Off Difference, also known as their TOV Plus-Minus. This stat can be understood as *"when this player is on the court, how many additional turnovers does he cause his team?”* This stat is useful, except that On-Off stats are [very noisy.](http://www.basketballinsiders.com/the-virtues-of-plus-minus-statistics/)
 
 **My goal is to explain TOV On-Off in a less noisy way.** I want to explain TOV On-Off with easily measurable stats such as an individual players turnovers (TOV), assists (AST), and shots taken (FGA and FTA). To do this, I will use a multivariate linear least squares regression. The result will a stat **XTOV** that better identifies which players create excess turnovers for their team. 
 
